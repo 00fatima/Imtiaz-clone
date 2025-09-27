@@ -1,0 +1,307 @@
+.header {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header img {
+  height: 50px;
+}
+
+.deliver {
+  text-align: center;
+}
+
+.hero {
+  max-width: 100%;
+}
+
+
+/* card */
+.slider-wrapper{
+  overflow: hidden;
+  margin: 0px 70px 10px;
+}
+
+.card-list .card-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.card-list .card-item .user-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  margin-bottom: 40px;
+  border: 3px solid #fff;
+  padding: 4px;
+
+
+
+}
+.card-list .card-item .user-profession{
+  font-size: 15px;
+  color: grey ;
+  font-weight: 500;
+  margin: 14p 0 40px ;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+  background: #1f21a3dc;
+  height: 15px;
+  width: 15px;
+  margin: 50px;
+}
+
+
+
+/* hero2  */
+.fresh{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+ 
+}
+.fresh img {
+  border-radius: 10px ;
+}
+.snacks {
+  padding: 30px 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 40px auto;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+.product-card {
+  width: 290px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s;
+  position: relative;
+}
+
+.product-card:hover {
+  border: 1px solid #023788;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* image */
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* title + wishlist */
+.product-card h2 {
+  font-size: 15px;
+  margin: 12px 0 8px;
+  position: relative;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.product-card .wishlist {
+  position: absolute;
+  right: -15px;
+  top: 0;
+  font-size: 20px;
+  color: #999;
+  cursor: pointer;
+  color: red;
+}
+
+
+
+/* description */
+.product-card p {
+  font-size: 13px;
+  color: #666;
+  margin: 5px 0 10px;
+  height: 38px;
+  overflow: hidden;
+}
+
+/* footer */
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.price {
+  font-size: 17px;
+  color: #000;
+  font-weight: 600;
+}
+
+.cart-btn {
+  background: #023788;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.cart-btn:hover {
+  background: #e63946;
+}
+
+/* swiper buttons styling */
+.swiper-slide-button {
+  color: #023788;
+  background: #1708df33;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.swiper-slide-button:hover {
+  color: #e63946;
+}
+
+
+.footer {
+  background: white;        /* dark blue background */
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px 50px;
+  gap: 20px;
+}
+
+.footer img {
+  max-width: 120px;
+  margin-left: 300px;
+}
+
+.footer h3 {
+  margin-bottom: 12px;
+  font-size: 50px;
+  font-weight: 400;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  font-weight: 500;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.footer ul li span {
+  color: black;
+}
+
+.footer a {
+  color: black;
+  
+  margin-right: 20px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #e63946;   /* red hover */
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer img {
+    margin: 0 auto 15px;
+  }
+
+  .footer a {
+    display: block;
+    margin: 8px 0;
+  }
+}
+
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.chat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 40px;
+  color: #023788;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  z-index: 1000;
+}
+.chat:hover {
+  color: red;
+}
+
+/* Chat Bar Box */
+.chat-bar {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  display: none; /* Hidden by default */
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 999;
+}
+
+.chat-header {
+  background: #023788;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-body {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+.chat-footer {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+.chat-footer input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+.chat-footer button {
+  background: #023788;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}

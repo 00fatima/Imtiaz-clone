@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- swiper  -->
+  
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body class="bg-gray-100">
+  <!-- header notice -->
+  <div>
+    <p class="bg-red-500 text-white text-center flex items-center justify-center text-[10px] sm:text-xs md:text-sm py-1">
+      Express orders will be delivered the same day, express orders after 6pm will be considered as Standard
+    </p>
+  </div>
+
+  <!-- navbar -->
+  <nav class="header flex flex-wrap md:flex-nowrap items-center justify-between px-4 py-2 shadow gap-3">
+    <!-- Logo -->
+    <img class="h-10" src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fblinkximtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Flogo%2F1656401353.png&w=1920&q=90" alt="logo">
+
+    <!-- Deliver Section -->
+    <div class="deliver flex flex-col text-sm">
+      <div class="flex items-center gap-1">
+        <i class='bx bxs-location text-black text-lg'></i>
+        <span>Deliver to <i class="fa-solid fa-caret-down ml-1"></i></span>
+      </div>
+      <p class="text-gray-500 text-xs">North Karachi, Karachi</p>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="flex-1 w-full md:w-auto px-2">
+      <input type="search" class="w-full border px-3 py-2 rounded text-sm focus:outline-none focus:ring-1 focus:ring-red-500" placeholder="Looking for something? Start here...">
+    </div>
+
+    <!-- Links -->
+    <div class="flex items-center gap-4 text-sm font-medium">
+      <a href="#" class="hover:text-red-500">Home</a>
+      <a href="#" class="hover:text-red-500 flex items-center gap-1">
+        Login <i class="fa-solid fa-user"></i>
+      </a>
+      <a href="#" class="hover:text-red-500 flex items-center gap-1">
+        Cart <i class="fa-solid fa-cart-shopping"></i>
+      </a>
+    </div>
+  </nav>
+
+  <!-- hero1 -->
+  <div class="flex items-center my-8 px-4">
+    <hr class="flex-grow border-gray-300">
+    <h1 class="px-3 text-lg text-black font-bold">Shop by Category</h1>
+    <hr class="flex-grow border-gray-300">
+  </div>
+
+  <!-- cards  -->
+   <div class="container swiper">
+    <div class="slider-wrapper">
+      <div class="card-list swiper-wrapper">
+        <!-- 1 -->
+        <div class="card-item swiper-slide">
+          <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fmenu_image%2F1669181160.jpg&w=1920&q=90" alt="User Image" class="user-image">
+          <p class="user-profession">Fresh</p>
+        </div>
+        <!-- 2 -->
+         <div class="card-item swiper-slide">
+          <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fmenu_image%2F1671801550.jpg&w=1920&q=90" alt="User Image" class="user-image">
+          <p class="user-profession">Bakery</p>
+        </div>
+        <!-- 3  -->
+        <div class="card-item swiper-slide">
+          <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fmenu_image%2F1669183295.jpg&w=1080&q=90" alt="User Image" class="user-image">
+          <p class="user-profession">Snacks & Confectionary</p>
+        </div>
+        <!-- 4 -->
+        <div class="card-item swiper-slide">
+          <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fmenu_image%2F1669183345.jpg&w=1080&q=90" alt="User Image" class="user-image">
+          <p class="user-profession">Bevarages</p>
+        </div>
+        <!-- 5 -->
+        <div class="card-item swiper-slide">
+          <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fmenu_image%2F1669184137.jpg&w=1080&q=90" alt="User Image" class="user-image">
+          <p class="user-profession">Tea & Coffee</p>
+        </div>
+        <!-- 6 -->
+        <div class="card-item swiper-slide">
+          <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fmenu_image%2F1669183953.jpg&w=1080&q=90" alt="User Image" class="user-image">
+          <p class="user-profession">Esible Grocery</p>
+        </div>
+        <!-- 7 -->
+        <div class="card-item swiper-slide">
+          <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fmenu_image%2F1669183903.jpg&w=1080&q=90" alt="User Image" class="user-image">
+          <p class="user-profession">Dairy</p>
+        </div>
+        <!-- 8 -->
+        <div class="card-item swiper-slide">
+          <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fmenu_image%2F1669183984.jpg&w=1080&q=90" alt="User Image" class="user-image">
+          <p class="user-profession">Frozen</p>
+        </div>
+        <!-- 9 -->
+        <div class="card-item swiper-slide">
+          <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fmenu_image%2F1669183851.jpg&w=1080&q=90" alt="User Image" class="user-image">
+          <p class="user-profession">Baby World</p>
+        </div>
+        <!-- 10 -->
+        <div class="card-item swiper-slide">
+          <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fmenu_image%2F1669184009.jpg&w=1080&q=90" alt="User Image" class="user-image">
+          <p class="user-profession">Health & Beauty</p>
+        </div>
+        <!-- 11 -->
+        <div class="card-item swiper-slide">
+          <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fmenu_image%2F1669184049.jpg&w=1080&q=90" alt="User Image" class="user-image">
+          <p class="user-profession">Home Care</p>
+        </div>
+        <!-- 12 -->
+        <div class="card-item swiper-slide">
+          <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fmenu_image%2F1669184085.jpg&w=1080&q=90" alt="User Image" class="user-image">
+          <p class="user-profession">Pet Essentials</p>
+        </div>
+        <!-- 13 -->
+        <div class="card-item swiper-slide">
+          <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fmenu_image%2F1669184108.jpg&w=1080&q=90" alt="User Image" class="user-image">
+          <p class="user-profession">Pharmacy</p>
+        </div>
+      </div>
+     
+
+    </div>
+   </div>
+
+
+
+  <!-- hero3 -->
+  <div class="flex items-center my-8 px-4">
+    <hr class="flex-grow border-gray-300">
+    <h1 class="px-3 text-lg text-black font-bold">Confectionary</h1>
+    <hr class="flex-grow border-gray-300">
+  </div>
+
+  <div class="fresh">
+    <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fsplash%2F1671107946.png&w=1920&q=90" alt="hero">
+  </div>
+
+  <!-- cards2 -->
+   <div class="container swiper snacks">
+    <div class="slider-wrapper">
+      <div class="card-list swiper-wrapper">
+        <!-- 1 -->
+         <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FCON170000593.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+    Hilal Bake Time Plain Cake Slices 6's Box 
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Soft and delicious cake slices, perfect for tea time.</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.205.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FCON170001501.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+Candyland Jelly ABC Party Pack
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Candyland Jelly ABC Party Pack
+
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.205.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FCON170000110.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+Lay's Chips French Cheese 29g
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Lay's Chips French Cheese 29g
+
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.205.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FCON170000850.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+Shahi Nimco Savory Mix 100g
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Shahi Nimco Savory Mix 100g
+
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.205.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FCON170001254.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+LU Wheatable Sugar Free F/P
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>LU Wheatable Sugar Free F/P
+
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.205.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FCON170000651.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+Candyland Jelly Chilli Mili Party Pack
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Candyland Jelly Chilli Mili Party Pack
+
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.205.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FCON170001281.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+Cadbury Dairy Milk Bubbly 20g Local
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Cadbury Dairy Milk Bubbly 20g Local
+
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.205.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+
+</div>
+      <div class="swiper-slide-button swiper-button-prev"></div>
+      <div class="swiper-slide-button swiper-button-next"></div>
+
+    </div>
+   </div>
+   
+<!-- hero4 -->
+  <div class="flex items-center my-8 px-4">
+    <hr class="flex-grow border-gray-300">
+    <h1 class="px-3 text-lg text-black font-bold">Beverages</h1>
+    <hr class="flex-grow border-gray-300">
+  </div>
+
+  <div class="fresh">
+    <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fsplash%2F1686046756.jpg&w=1920&q=90" alt="hero">
+  </div>
+
+  <!-- hero5 -->
+  <div class="flex items-center my-8 px-4">
+    <hr class="flex-grow border-gray-300">
+    <h1 class="px-3 text-lg text-black font-bold">Edible Grocery</h1>
+    <hr class="flex-grow border-gray-300">
+  </div>
+
+  <div class="fresh">
+    <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fsplash%2F1670937361.jpg&w=1920&q=90" alt="hero">
+  </div>
+
+  <!-- cards3 -->
+   <div class="container swiper snacks">
+    <div class="slider-wrapper">
+      <div class="card-list swiper-wrapper">
+        <!-- 1 -->
+         <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FEDG190002163.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+    Hilal Bake Time Plain Cake Slices 6's Box 
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Soft and delicious cake slices, perfect for tea time.</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.205.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FEDG190001784.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+Candyland Jelly ABC Party Pack
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Candyland Jelly ABC Party Pack
+
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.205.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FEDG190000672.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+Lay's Chips French Cheese 29g
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Lay's Chips French Cheese 29g
+
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.205.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FEDG190001399.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+Shahi Nimco Savory Mix 100g
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Shahi Nimco Savory Mix 100g
+
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.205.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FCON170001254.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+LU Wheatable Sugar Free F/P
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>LU Wheatable Sugar Free F/P
+
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.205.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FCON170000651.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+Candyland Jelly Chilli Mili Party Pack
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Candyland Jelly Chilli Mili Party Pack
+
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.205.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FCON170001281.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+Cadbury Dairy Milk Bubbly 20g Local
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Cadbury Dairy Milk Bubbly 20g Local
+
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.205.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+
+</div>
+      <div class="swiper-slide-button swiper-button-prev"></div>
+      <div class="swiper-slide-button swiper-button-next"></div>
+
+    </div>
+   </div>
+
+
+</div>
+      <div class="swiper-slide-button swiper-button-prev"></div>
+      <div class="swiper-slide-button swiper-button-next"></div>
+
+    </div>
+   </div>
+
+  
+
+
+   <!-- hero7 -->
+  <div class="flex items-center my-8 px-4">
+    <hr class="flex-grow border-gray-300">
+    <h1 class="px-3 text-lg text-black font-bold">Home Care</h1>
+    <hr class="flex-grow border-gray-300">
+  </div>
+
+  <div class="fresh">
+    <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fsplash%2F1671107973.png&w=1920&q=90" alt="hero">
+  </div>
+
+  <!-- cards3 -->
+   <div class="container swiper snacks">
+    <div class="slider-wrapper">
+      <div class="card-list swiper-wrapper">
+        <!-- 1 -->
+         <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FHME260000890.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+    Fresh Touch Air Freshner Hanger Lavender 80g
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Fresh Touch Air Freshner Hanger Lavender 80g</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.235.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FHME260000365.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+Roomi Air Freshner Block Refill L
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Roomi Air Freshner Block Refill L
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.215.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FHME260000346.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+Astonish Window & Glass Cleaner 750Ml
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Astonish Window & Glass Cleaner 750Ml
+
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.735.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FHME260001048.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+Ariel Detergent Powder Downy 900g
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Ariel Detergent Powder Downy 900g
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.539.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FHME260000236.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+Express Detergent Powder Power 1000g
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Express Detergent Powder Power 1000g
+
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.382.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FHME260000050.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+Rose Petal Tissue Perfumed 100's
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Rose Petal Tissue Perfumed 100's
+
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.279.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+ <div class="card-item swiper-slide product-card">
+  <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fimtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Fgallery%2FHME260001359.jpg&w=1920&q=90" alt="1">
+
+  <h2>
+Al Arabia Air Freshener Aroosah 300ml
+    <span class="wishlist"><i class='bx bx-heart'></i></span>
+  </h2>
+
+  <p>Al Arabia Air Freshener Aroosah 300ml
+</p>
+
+  <div class="card-footer">
+    <h2 class="price">RS.299.00</h2>
+    <button class="cart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </button>
+  </div>
+</div>
+
+</div>
+      <div class="swiper-slide-button swiper-button-prev"></div>
+      <div class="swiper-slide-button swiper-button-next"></div>
+
+    </div>
+   </div>
+
+   <!-- footer  -->
+    <div class="footer">
+      <img src="https://shop.imtiaz.com.pk/_next/image?url=https%3A%2F%2Fblinkximtiaz-i.s3.ap-southeast-1.amazonaws.com%2F55126%2Flogo%2F1656401353.png&w=128&q=90" alt="logo">
+      <div>
+        <h3>Contact Us</h3>
+        <ul>
+          <li>Phone: <span>021-123-456-789</span></li>
+          <li>Email: <span>hello@imtiaz.com.pk</span></li>
+          <li>Address: <span>Imtiaz -Warehouse Korangi (ISM-KHI-DWH-001), Ponam warehouse : Sector 14, Korangi, Karachi</span></li>
+          <li>UAN: <span>021-111-468-429 (IMT-IAZ)</span></li>
+        </ul>
+
+      
+
+      </div>
+      <div>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Returen and Exchange Policy</a>
+      </div>
+    </div>
+
+       <!-- Chat Icon -->
+<i class="fa-solid fa-comment-dots chat" onclick="toggleChat()"></i>
+
+<!-- Chat Bar -->
+<div class="chat-bar" id="chatBar">
+  <div class="chat-header">
+    <h3>Chat with us</h3>
+    <span class="close" onclick="toggleChat()">×</span>
+  </div>
+  <div class="chat-body">
+  </div>
+  <div class="chat-footer">
+    <input id="userInput" type="text" placeholder="Type a message...">
+    <button id="sendBtn" onclick="send()">Send</button>
+  </div>
+</div>
+
+
+   <!-- swiper  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>
